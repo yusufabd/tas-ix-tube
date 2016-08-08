@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/main">
+        <menu>
+            <item
+                android:id="@+id/nav_main"
+                android:icon="@drawable/ic_view_agenda_black_24dp"
+                android:title="@string/main" />
+            <item
+                android:id="@+id/nav_latest"
+                android:icon="@drawable/ic_whatshot_black_24dp"
+                android:title="@string/latest" />
+            <item
+                android:id="@+id/nav_search"
+                android:icon="@drawable/magnify"
+                android:title="@string/search"/>
+
+        </menu>
+    </item>
+
+    <item android:title="@string/main">
+        <menu>
+            <item
+                android:id="@+id/nav_humor"
+                android:icon="@drawable/ic_tag_faces_black_24dp"
+                android:title="@string/humor" />
+            <item
+                android:id="@+id/nav_cinema"
+                android:icon="@drawable/ic_movie_black_24dp"
+                android:title="@string/cinema" />
+            <item
+                android:id="@+id/nav_tv"
+                android:icon="@drawable/ic_tv_black_24dp"
+                android:title="@string/tv" />
+            <item
+                android:id="@+id/nav_game"
+                android:icon="@drawable/ic_videogame_asset_black_24dp"
+                android:title="@string/game" />
+            <item
+                android:id="@+id/nav_music"
+                android:icon="@drawable/ic_music_video_black_24dp"
+                android:title="@string/music" />
+            <item
+                android:id="@+id/nav_avto"
+                android:icon="@drawable/ic_directions_car_black_24dp"
+                android:title="@string/avto" />
+            <item
+                android:id="@+id/nav_sport"
+                android:icon="@drawable/ic_rowing_black_24dp"
+                android:title="@string/sport" />
+            <item
+                android:id="@+id/nav_tech"
+                android:icon="@drawable/ic_devices_black_24dp"
+                android:title="@string/tech" />
+            <item
+                android:id="@+id/nav_education"
+                android:icon="@drawable/ic_school_black_24dp"
+                android:title="@string/education" />
+            <item
+                android:id="@+id/nav_adver"
+                android:icon="@drawable/ic_store_black_24dp"
+                android:title="@string/adver" />
+            <item
+                android:id="@+id/nav_beauty"
+                android:icon="@drawable/ic_favorite_border_black_24dp"
+                android:title="@string/beauty" />
+            <item
+                android:id="@+id/nav_anime"
+                android:icon="@drawable/ic_child_care_black_24dp"
+                android:title="@string/anime" />
+            <item
+                android:id="@+id/nav_family"
+                android:icon="@drawable/ic_people_black_24dp"
+                android:title="@string/family" />
+            <item
+                android:id="@+id/nav_cook"
+                android:icon="@drawable/ic_restaurant_black_24dp"
+                android:title="@string/cook" />
+            <item
+                android:id="@+id/nav_animals"
+                android:icon="@drawable/ic_pets_black_24dp"
+                android:title="@string/animals" />
+            <item
+                android:id="@+id/nav_news"
+                android:icon="@drawable/ic_chrome_reader_mode_black_24dp"
+                android:title="@string/news" />
+            <item
+                android:id="@+id/nav_nature"
+                android:icon="@drawable/ic_nature_people_black_24dp"
+                android:title="@string/nature" />
+            <item
+                android:id="@+id/nav_arts"
+                android:icon="@drawable/ic_color_lens_black_24dp"
+                android:title="@string/arts" />
+            <item
+                android:id="@+id/nav_misc"
+                android:icon="@drawable/ic_shuffle_black_24dp"
+                android:title="@string/misc" />
+        </menu>
+    </item>
+</menu>

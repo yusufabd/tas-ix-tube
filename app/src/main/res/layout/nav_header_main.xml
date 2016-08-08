@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:gravity="bottom"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:id="@+id/layout_ac">
+
+
+        <TextView
+            android:id="@+id/text_view_desc"
+            android:singleLine="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/nav_header_vertical_spacing"
+            android:text="@string/ad"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/text_view_desc2"
+        android:singleLine="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ad2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:layout_below="@+id/text_view_desc"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="www.androidclub.uz"
+        android:layout_below="@+id/text_view_desc2"
+        android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+

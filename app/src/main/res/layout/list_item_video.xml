@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="128dp"
+        android:layout_height="86dp"
+        android:id="@+id/image_view_thumb"
+        android:src="@drawable/desert"
+        android:background="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_view_length"
+        android:text="14:01"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
+        android:textColor="@color/white"
+        android:layout_alignBottom="@+id/image_view_thumb"
+        android:layout_toLeftOf="@+id/info_layout"
+        android:layout_toStartOf="@+id/info_layout" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/image_view_thumb"
+        android:id="@+id/info_layout"
+        android:orientation="vertical"
+        android:paddingLeft="8dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_view_title"
+            android:text="Влад Десятка: Про кино — «Ледниковый период: Столкновение неизбежно"
+            android:textColor="@color/black"
+            android:singleLine="false"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_view_owner"
+            android:text="DarkPrince"
+            android:textColor="@color/red"
+            android:singleLine="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_view_views"
+            android:text="Просмотров: 3526"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

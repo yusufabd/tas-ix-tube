@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Tas-Ix Tube</string>
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+    <string name="search">Поиск</string>
+
+    <string name="main">Главное</string>
+    <string name="latest">Новое</string>
+    <string name="humor">Юмор</string>
+    <string name="cinema">Кино</string>
+    <string name="tv">ТВ</string>
+    <string name="game">Игры</string>
+    <string name="music">Музыка</string>
+    <string name="avto">Авто</string>
+    <string name="sport">Спорт</string>
+    <string name="tech">Технологии</string>
+    <string name="education">Обучение</string>
+    <string name="adver">Реклама</string>
+    <string name="beauty">Красота</string>
+    <string name="anime">Аниме</string>
+    <string name="family">Семья и дети</string>
+    <string name="cook">Кулинария</string>
+    <string name="animals">Животные</string>
+    <string name="news">Новости</string>
+    <string name="nature">Природа и путешествия</string>
+    <string name="arts">Искусство</string>
+    <string name="misc">Разное</string>
+
+    <string name="share">Поделиться</string>
+    <string name="settings">Настройки</string>
+
+    <string name="recommended">  Рекомендованные  </string>
+    <string name="top3">  ТОП 3 дня  </string>
+    <string name="newlyAdded">  Новое  </string>
+
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="no_wes_permission">Нет разрешения на запись</string>
+    <string name="about">About</string>
+    <string name="typein">Введите запрос…</string>
+    <string name="ad">Android Club Uzbekistan</string>
+    <string name="ad2">Обучение и разработка мобильных приложений</string>
+    <string name="no_internet">Нет соединения с интернетом</string>
+    <string name="turn_internet">Включить</string>
+</resources>
